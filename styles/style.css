@@ -1,0 +1,77 @@
+/* styles/style.css */
+
+/* Fontes e cores principais */
+:root {
+  --primary-color: #4B65D4;
+  --accent-color: #FF6F61;
+  --bg-color: #F7F8FA;
+  --text-color: #333333;
+  --header-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Cabeçalho */
+h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+h2, h3 {
+  color: var(--accent-color);
+}
+
+/* Container principal */
+.reportview-container .main .block-container {
+  padding: 2rem 3rem;
+  max-width: 900px;
+}
+
+/* Botão personalizado */
+.stButton>button {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.stButton>button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Inputs e text-area */
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+/* Seções separadas */
+hr { border-top: 2px solid #ddd; }
+
+/* Mensagens de sucesso/erro */
+.stAlert {
+  border-radius: 6px;
+  padding: 1rem;
+}
+.stAlertSuccess { background-color: #E6F4EA; }
+.stAlertError   { background-color: #FDECEA; }
+.stAlertInfo    { background-color: #E8F1FD; }
+
+
+
+footer {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}

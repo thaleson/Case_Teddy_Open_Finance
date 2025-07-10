@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+easyocr
+pdf2image
+pillow
+pymongo
+requests
+streamlit
