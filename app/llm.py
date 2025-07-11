@@ -19,7 +19,7 @@ Dependencies:
 import os
 import requests
 
-GROQ_API_URL = os.getenv("GROQ_API_URL")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 MODEL = os.getenv("MODEL", "llama3-70b-8192")
 
